@@ -41,8 +41,8 @@
 }
 
 .container{
-    width: 95vw;
-    height: 95vh;
+    width: 85vw;
+    height: 85vh;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;

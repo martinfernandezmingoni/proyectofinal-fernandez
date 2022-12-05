@@ -66,62 +66,62 @@ const familias = [{
             Toastify({
                 text:"¡Ya-hoo!",
                 duration: 2000,
+                position: "center",
                 style: {
                     colour: 'white',
                     background: "#0d6efd",
-                    
                 },
                 offset:{
-                    x: 800,
-                    y: 400
-                }
+                    y: "20vw" 
+                },
             }).showToast();
         }else if(item.name == "marge" ){
             Toastify({
                 text:"¡Mmm!",
                 duration: 2000,
+                position: "center",
                 style: {
                     colour: 'white',
                     background: "#0d6efd",
                     
                 },
                 offset:{
-                    x: 1100,
-                    y: 400
-                }
+                    y: "20vw" 
+                },
             }).showToast();
         }else if(item.name == "bart" ){
             Toastify({
                 text:"Yo no fui",
                 duration: 2000,
+                position: "center",
                 style: {
                     colour: 'white',
                     background: "#0d6efd",
                     
                 },
                 offset:{
-                    x: 750,
-                    y: 500
-                }
+                    y: "20vw" 
+                },
             }).showToast();
         }else if(item.name == "lisa" ){
             Toastify({
                 text:"Gracias!",
                 duration: 2000,
+                position: "center",
                 style: {
                     colour: 'white',
                     background: "#0d6efd",
                     
                 },
                 offset:{
-                    x: 950,
-                    y: 620
-                }
+                    y: "20vw" 
+                },
             }).showToast();
         }else if(item.name == "maggie" ){
             Toastify({
                 text:"Chweek-Chweek",
                 duration: 2000,
+                position: "center",
                 style: {
                     width: '5vw',
                     colour: 'white',
@@ -129,9 +129,8 @@ const familias = [{
                     
                 },
                 offset:{
-                    x: 1120,
-                    y: 560
-                }
+                    y: "20vw" 
+                },
             
             }).showToast();
         }

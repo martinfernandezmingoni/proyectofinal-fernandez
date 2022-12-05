@@ -105,7 +105,7 @@ function escogerPregunta(n) {
   
  // if (preguntas_correctas !== null) localStorage.setItem('puntuacion', preguntas_correctas)
   
-  preguntas_correctas !== null ? localStorage.setItem('puntuacion', preguntas_correctas) : undefined
+  preguntas_correctas !== null ? localStorage.setItem('puntuacion', pc) : undefined
 
  
 
