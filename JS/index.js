@@ -123,7 +123,6 @@ const familias = [{
                 duration: 2000,
                 position: "center",
                 style: {
-                    width: '5vw',
                     colour: 'white',
                     background: "#0d6efd",
                     
@@ -139,9 +138,3 @@ const familias = [{
     })
  });
 
-// homero.addEventListener('click', () => {
-//     Toastify({
-//         text:"hola",
-//         duration: 2000
-//     }).showToast();
-// });

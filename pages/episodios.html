@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script defer src="../JS/score.js"></script>
+    <script defer src="../JS/episodios.js"></script>
     <title>SimpsonTrivia Score</title>
 </head>
 <body class="body">
@@ -36,35 +36,34 @@
         </div>
       </nav>
 
-      
-      
-      <div class="container text-center">
-        <div>
-          <h2>Estos son los resultados de todos los que jugaron mi SimpsonTrivia</h2>
-        </div>
-        <div class="row row-cols-3 box">
-        <div class="col titulo">Nombre</div>
-        <div class="col  titulo">Personaje</div>
-        <div class="col titulo">Puntuacion</div>
-        <div class="col data" id="names"></div>
-        <div class="col data" id="characters">Column</div>
-        <div class="col data" id="scores">Column</div>
-        <div class="col data">Column</div>
-        <div class="col data">Column</div>
-        <div class="col data">Column</div>
-        <div class="col data">Column</div>
-        <div class="col data">Column</div>
-        <div class="col data">Column</div>
-        <div class="col data">Column</div>
-        <div class="col data">Column</div>
-        <div class="col data">Column</div>
-        <div class="col data">Column</div>
-        <div class="col data">Column</div>
-        <div class="col data">Column</div>
-        
-      </div>
-    </div>
+      <div class="container-fluid">
 
+        <main>
+            <div class="seleccion search">
+                <select id="temporada">
+                    <option value="">Temporadas</option>
+                    <option value="1">Temporada 1</option>
+                    <option value="2">Temporada 2</option>
+                    <option value="3">Temporada 3</option>
+                    <option value="4">Temporada 4</option>
+                    <option value="5">Temporada 5</option>
+                    <option value="6">Temporada 6</option>
+                    <option value="7">Temporada 7</option>
+                    <option value="8">Temporada 8</option>
+                    <option value="9">Temporada 9</option>
+                    <option value="10">Temporada 10</option>
+                    
+                </select>
+                <button class="btn btn-sm btn-primary my-1" id="search">Search</button>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="cardContainer">
+
+            </div>
+
+        </main>
+
+    </div>
 
 
 
