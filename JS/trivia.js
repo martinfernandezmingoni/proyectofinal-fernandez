@@ -45,7 +45,7 @@ function escogerPreguntaAleatoria() {
           icon: "success",
           showCancelButton: true,
           confirmButtonText: "Salir",
-          cancelButtonText: "Score"
+          cancelButtonText: "Episodios"
         }).then((result) => {
           if (result.isConfirmed) {
             Swal.fire({
@@ -56,7 +56,7 @@ function escogerPreguntaAleatoria() {
               window.location = '../index.html'
             })
           }else{
-            window.location = './scores.html'
+            window.location = './episodios.html'
             
           }
         }
@@ -79,14 +79,10 @@ function escogerPregunta(n) {
   pregunta = interprete_bp[n];
   select_id("categoria").innerHTML = pregunta.categoria;
   select_id("pregunta").innerHTML = pregunta.pregunta;
-  select_id("numero").innerHTML = n + 1;
   let pc = preguntas_correctas;
-  if (preguntas_hechas > 1) {
-
-    select_id("puntaje").innerHTML = pc + "/" + (preguntas_hechas - 1);
-  } else {
-    select_id("puntaje").innerHTML = "";
-  }
+  
+  select_id("preguntaNumero").innerHTML = preguntas_hechas + "/" + interprete_bp.length;
+  
 
   style("imagen").objectFit = pregunta.objectFit;
   desordenarRespuestas(pregunta);
@@ -101,7 +97,7 @@ function escogerPregunta(n) {
       select_id("imagen").setAttribute("src", "");
     }, 500);
   }
-  console.log('Puntuancion', preguntas_correctas)
+  //console.log('Puntuancion', preguntas_correctas)
   
  // if (preguntas_correctas !== null) localStorage.setItem('puntuacion', preguntas_correctas)
   

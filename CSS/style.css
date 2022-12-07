@@ -71,6 +71,14 @@
     padding: 10px;
 }
 
+.preguntaNumero{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    border: #0d6efd solid;
+    background-color: #0d6efd;
+}
+
 .imgTrivia{
     object-fit: cover;
     width: auto;
@@ -80,10 +88,6 @@
 .boton:hover{
     
     cursor: pointer;
-}
-
-.box{
-    border: #0d6efd 5px solid;
 }
 
 .titulo{
