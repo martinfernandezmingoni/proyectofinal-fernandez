@@ -139,5 +139,68 @@
        "incorrecta3": "36",
        "imagen": "../img/marge-zapatos.jpg",
        "object_fit": "container"
-  }
+  },{
+    "categoria": "Media",
+    "pregunta": "¿Como se llama la mama de Marge Simpson?",
+    "respuesta": "Jaqueline",
+    "incorrecta1": "Etna",
+    "incorrecta2": "Margaret",
+    "incorrecta3": "Mona",
+    "imagen": "../img/jaqueline.jpg",
+    "object_fit": "container"
+},{
+  "categoria": "Media",
+  "pregunta": "¿Cuanto cobro Bart a Milhouse por su alma?",
+  "respuesta": "$5",
+  "incorrecta1": "$10",
+  "incorrecta2": "$7",
+  "incorrecta3": "$15",
+  "imagen": "../img/bartsoul.jpg",
+  "object_fit": "container"
+},{
+  "categoria": "Media",
+  "pregunta": "¿Cual es el segundo nombre de Homero?",
+  "respuesta": "Jay",
+  "incorrecta1": "James",
+  "incorrecta2": "Jake",
+  "incorrecta3": "Jey",
+  "imagen": "../img/bartsoul.jpg",
+  "object_fit": "container"
+},{
+  "categoria": "Dificil",
+  "pregunta": "¿Como se llama la pelicula de Bartney Gomez?",
+  "respuesta": "Ponchahontas",
+  "incorrecta1": "Soy Ebrio",
+  "incorrecta2": "Alcoholicos anonimos",
+  "incorrecta3": "No lloren por mi",
+  "imagen": "../img/descarga.jpg",
+  "object_fit": "container"
+},{
+  "categoria": "Dificil",
+"pregunta": "¿Que cancion toca Lisa en el final del capitulo 'El sax de Lisa'?",
+  "respuesta": "Baker Street, de Gerry Rafferty",
+  "incorrecta1": "Careless Whisper, de George Michael",
+  "incorrecta2": "Jazzman, de Carole King",
+  "incorrecta3": "You Gotta Be, de Casaandra Beck",
+  "imagen": "../img/lisajazz.jpg",
+  "object_fit": "container"
+},{
+  "categoria": "Dificil",
+  "pregunta": "¿Como se llama el rector de la universidad cuando estudia Homero?",
+  "respuesta": "Bobby Peterson",
+  "incorrecta1": "James Parker",
+  "incorrecta2": "Andy Jhonson",
+  "incorrecta3": "Mike Wilson",
+  "imagen": "../img/boby.jpg",
+  "object_fit": "container"
+},{
+  "categoria": "Dificil",
+  "pregunta": "¿En que estado estuvo a punto de casarse Bart con la hija Cletus?",
+  "respuesta": "Utah",
+  "incorrecta1": "Texas",
+  "incorrecta2": "Montana",
+  "incorrecta3": "Virginia",
+  "imagen": "../img/utah.jpg",
+  "object_fit": "container"
+}
 ]
